@@ -2657,7 +2657,6 @@
       "minzoom": 15,
       "filter": [
         "all",
-        ["==", ["geometry-type"], "Point"],
         [">=", ["get", "rank"], 25],
         ["<=", ["get", "zoom"], ["zoom"]],
         ["any", ["!", ["has", "level"]], ["==", ["get", "level"], 0]],
@@ -2706,7 +2705,6 @@
       "minzoom": 14,
       "filter": [
         "all",
-        ["==", ["geometry-type"], "Point"],
         ["<=", ["get", "rank"], 24],
         [">=", ["get", "rank"], 15],
         ["<=", ["get", "zoom"], ["zoom"]],
@@ -2755,7 +2753,6 @@
       "minzoom": 12,
       "filter": [
         "all",
-        ["==", ["geometry-type"], "Point"],
         ["<=", ["get", "rank"], 14],
         ["<=", ["get", "zoom"], ["zoom"]],
         ["any", ["!", ["has", "level"]], ["==", ["get", "level"], 0]],
@@ -3194,7 +3191,6 @@
       "minzoom": 15,
       "filter": [
         "all",
-        ["==", ["geometry-type"], "Point"],
         [">=", ["get", "rank"], 25],
         ["<=", ["get", "zoom"], ["zoom"]],
         ["any", ["!", ["has", "level"]], ["==", ["get", "level"], 0]],
@@ -3279,7 +3275,6 @@
       "minzoom": 14,
       "filter": [
         "all",
-        ["==", ["geometry-type"], "Point"],
         ["<=", ["get", "rank"], 24],
         [">=", ["get", "rank"], 15],
         ["<=", ["get", "zoom"], ["zoom"]],
@@ -3364,7 +3359,6 @@
       "minzoom": 12,
       "filter": [
         "all",
-        ["==", ["geometry-type"], "Point"],
         ["<=", ["get", "rank"], 14],
         ["<=", ["get", "zoom"], ["zoom"]],
         ["any", ["!", ["has", "level"]], ["==", ["get", "level"], 0]],
